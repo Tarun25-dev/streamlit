@@ -1,0 +1,31 @@
+Flask:
+>> Streamlit is a Python library used to quickly build frontend UIs for data and ML applications.
+
+What problem does streamlit solve?
+>> Imagine this situation, You built an ML model in Python:
+>> Now you want:
+   >> A button
+   >> A file upload
+   >>A nice screen to show results
+>> Streamlit solves this exact problem
+>> “Write Python → get a web UI”
+
+            Your Python code
+                    ↓
+            Streamlit engine
+                    ↓
+            Browser UI (web page)
+
+>> You don't create pages manually.
+>> Streamlit reads your Python file line by line and renders UI automatically.
+>> Every time user clicks something → the script runs again from top to bottom.
+
+            User clicks button
+                    ↓
+            Streamlit sends event to Python
+                    ↓
+            Python script re-runs FROM TOP
+                    ↓
+            UI is re-drawn
+
+>> For install use "pip install streamlit"
