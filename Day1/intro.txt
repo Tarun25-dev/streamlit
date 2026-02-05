@@ -28,4 +28,7 @@ What problem does streamlit solve?
                     ↓
             UI is re-drawn
 
+
 >> For install use "pip install streamlit"
+>> To run that py file we must inside path of that in terminal and then type this command to run:
+>> streamlit run app.py
