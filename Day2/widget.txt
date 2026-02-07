@@ -1,0 +1,23 @@
+Widget:
+>> A widget is any interactive UI element that lets the user give input or trigger an event.
+>> Simply, Widget = Somethingthe user can click, type, select, or upload.
+
+Real-life analogy:
+Think of an ATM machine:
+
+Buttons → widget
+Card input slot → widget
+PIN keypad → widget
+Screen options → widget
+
+Anything you interact with = widget.
+
+Example: some of main built-in widgets in Streamlit,
+
+1. st.text_input()
+2. st.number_input()
+3. st.button()
+4. st.checkbox()
+5. st.selectbox()
+6. st.file_uploader()
+7. st.slider()

@@ -1,0 +1,120 @@
+Inputs = widgets that take data from users.
+
+We'll go one by one, with:
+
+what it does
+what it returns
+real-life example
+common mistake
+
+1. st.text_input() - Text input
+>> It takes string/text from users.
+
+Example:
+name = st.text_input("Enter your name:")
+st.write("Name: ",name)
+
+What it returns?
+>> It retruns always string
+>> Empty string ("") returns if nothing typed
+
+Real-life example:
+>> Login form = username field
+
+Common mistake:
+>> Expecting it to return None but it returns ("") empty string.
+
+2. st.text_area() - Long text 
+>> For multiple line text 
+
+Example:
+feedback=st.text_area("Enter feedback")
+st.write(feedback)
+
+real-life example:
+>> resume text, comments, description box, etc..
+
+3. st.number_input() - number input  
+>> Accepts only numbers
+ 
+Example:
+age = st.number_input("Enter age",min_value=0,max_value=120)
+st.write(age)
+
+What it returns?
+>> int / float
+
+Real-life example:
+>> age, salary, quantity
+
+4. st.slider() - Select value from sliding
+>> Select number or range visually
+
+Example:
+rating = st.slider("Rate this app", 1, 5)
+st.write("Rating:", rating)
+# auto update input when select
+
+Real-life example:
+>> rating system, price range
+
+5. st.checkbox() - Yes/No input
+>> Returns True or False
+
+Example:
+agree = st.checkbox("I agree to terms & conditions")
+st.write("Agreed:", agree)
+
+Realtime example:
+>> terms & conditions accept
+
+6. st.selectbox() - choose one option 
+>> Select one value from list
+
+Example:
+course=st.selectbox("choose course",["python","java","C++"])
+st.write(course)
+
+What it returns?
+>> Selected item from list
+
+real-life example:
+>> Course selection, Gender
+
+7. st.multiselect() - choose multiple options
+>> Select multiple values from list
+
+Example:
+course=st.multiselect("choose course",["python","java","C++"])
+st.write(course)
+
+What it returns?
+>> Selected items from list
+
+real-life example:
+>> Course selection
+
+8. st.file_uploader() - file input
+>> Upload files like pdf,images,etc..
+
+Example:
+file = st.file_uploader("Upload file")
+
+if file:
+    st.write("File name:", file.name)
+
+real-life example:
+>> resume upload
+
+IMPORTANT: Inputs always re-run the script 
+
+When user:
+
+Types
+Clicks
+Selects
+
+ Entire script re-runs
+ Input values are sent again
+
+This is normal Streamlit behavior.
