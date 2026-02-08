@@ -1,0 +1,11 @@
+Callbacks:
+>> A callback is a function that runs automatically when a user interacts with a widget.
+instead of,
+>> checking buttons again and again
+>> writing logic everywhere
+>> Just you attach logic to an event
+
+Why callbacks exist?
+>> Rerun top to bottom
+>> Every script restarts the script 
+>> without callbacks logic becomes messy
