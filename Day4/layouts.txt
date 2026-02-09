@@ -1,0 +1,24 @@
+Layouts:
+>> Layout means how things are arranged on the screen.
+
+WithOut Layout:
+The application looks like writing on a paper.
+
+st.title("My App")
+st.text_input("Name")
+st.button("Submit")
+st.write("Done")
+
+Everything comes one below another like:
+
+Title
+Name box
+Button
+Text
+
+With layouts:
+
+>> Clear sections
+>> Professional look
+>> Easier for users
+

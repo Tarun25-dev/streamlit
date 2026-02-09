@@ -1,0 +1,36 @@
+Types of Layouts - Streamlit gives building blocks for layout:
+>> Single column
+>> Columns
+>> Sidebars
+>> Expander
+>> Container / Tabs
+
+>> 1. Single column(default layout): 
+   >> Everything stacks vertically, one after another
+   >> This is streamlit default behaviour.
+
+>> Example:
+
+st.title("My App")
+st.write("This appears below the title")
+st.button("Click me")
+
+>> 2. Multi-column layout:
+   >> Split the page into side by side Columns
+
+>> 3. Sidebar layout:
+   >> Content placed in a left sidebar.
+   >> Used for navigations, filters, settings
+
+>> 4. Expander layout(collapsable section):
+   >> Hide / Show content when needed.
+
+>> 5. Container(Organized sections):
+   >> Container groups elements together
+ 
+>> 6. Tabs:
+   >> Multiple sections on the same page.
+
+Overview:
+>> Streamlit mainly supports single-column, multi-column, sidebar, expander, and tab/container-based layouts.
+
