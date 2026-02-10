@@ -1,0 +1,14 @@
+Table vs DataFrame
+
+| Feature            | `st.dataframe()`             | `st.table()`     |
+| ------------------ | ---------------------------- | ---------------- |
+| Interactivity      | ✅ Yes (sortable, scrollable) | ❌ No (static)    |
+| Editing            | ❌ No (use `st.data_editor`)  | ❌ No             |
+| Sorting columns    | ✅ Yes                        | ❌ No             |
+| Scrolling          | ✅ Yes (large data)           | ❌ No             |
+| Best for data size | Medium to large datasets     | Small datasets   |
+| User experience    | Dynamic & dashboard-like     | Simple & clean   |
+| Pandas required    | ❌ Optional (recommended)     | ❌ Not required   |
+| Performance        | Slightly heavier             | Very lightweight |
+| Styling            | Limited (pandas style)       | Very limited     |
+| Use in real apps   | ⭐⭐⭐⭐                         | ⭐⭐               |
