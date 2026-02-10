@@ -1,0 +1,10 @@
+Container vs Expander:
+
+| Feature          | Container       | Expander     |
+| ---------------- | --------------- | ------------ |
+| Visibility       | Always visible  | Collapsible  |
+| Use case         | Layout grouping | Hide content |
+| User interaction | No              | Yes          |
+
+Ovverview:
+st.container() is used to group and manage multiple Streamlit elements together and to dynamically update sections of the UI.
