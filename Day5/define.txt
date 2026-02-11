@@ -1,0 +1,35 @@
+Form:
+>> A form groups multiple inputs and waits for a submit button before processing.
+
+Why Forms?
+>> Beacuse normally in streamlit,
+   >> Every input change --> app reruns
+   >> Every button click --> app reruns immediately
+>> But in real applications:
+>> User fills everything → clicks Submit → THEN processing happens.
+
+>> In streamlit we can define form in st.form()
+
+What happens Without Form?
+
+name = st.text_input("Name")
+age = st.number_input("Age")
+
+if st.button("Submit"):
+    st.write("Submitted")
+
+# here every input that we enter into that input it takes and reruns the total script, thats the problem.
+
+What happens when use forms?
+
+with st.form("my_form"):
+    name = st.text_input("Name")
+    age = st.number_input("Age")
+    submitted = st.form_submit_button("Submit")
+
+if submitted:
+    st.write("Name:", name)
+    st.write("Age:", age)
+
+"st.form_submit_button() is used to submit all the inputs together at once.
+>> we must use inside of the form only 
