@@ -1,0 +1,20 @@
+Markdown - 
+>> Markdown is a lightweight markup language for formatting text.
+>> You can write bold, italic, headings, lists, links, images, code easily without HTML.
+
+| Feature           | Markdown Syntax                       | Example in Streamlit                                   |
+| ----------------- | ------------------------------------- | ------------------------------------------------------ |
+| **Heading 1**     | `# Heading 1`                         | `st.markdown("# Welcome")`                             |
+| **Heading 2**     | `## Heading 2`                        | `st.markdown("## Subheading")`                         |
+| **Bold**          | `**bold text**`                       | `st.markdown("**Important**")`                         |
+| **Italic**        | `*italic text*`                       | `st.markdown("*Italic*")`                              |
+| **Bold + Italic** | `***text***`                          | `st.markdown("***Bold Italic***")`                     |
+| **List**          | `- Item 1`                            | `st.markdown("- Apple\n- Banana")`                     |
+| **Numbered List** | `1. First\n2. Second`                 | `st.markdown("1. First\n2. Second")`                   |
+| **Link**          | `[title](url)`                        | `st.markdown("[Google](https://google.com)")`          |
+| **Image**         | `![alt text](url)`                    | `st.markdown("![Logo](https://example.com/logo.png)")` |
+| **Code**          | `` `code` ``                          | `st.markdown("`print('Hello')`")`                      |
+| **Code block**    | <pre>`python\nprint("Hello")\n`</pre> | `python st.markdown("`python\nprint('Hello')\n`") `    |
+
+>> Streamlit supports markdown via the function:
+>> st.markdown("write markdown text here")
