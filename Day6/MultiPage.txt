@@ -1,0 +1,6 @@
+What is a Multi page app?
+>> A multi page app lets user switch between "pages (screens)" inside the same streamlit app.
+Example:
+>> Home - Shows welcome information
+>> Profile - Shows user information
+>> Settings - allows configuration
