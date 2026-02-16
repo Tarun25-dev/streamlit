@@ -1,0 +1,9 @@
+Seperate logic from UI:
+like dont write all in one file 
+Good to keep like this:
+
+app.py → UI only
+
+utils.py → ML logic
+
+model/ → trained model
