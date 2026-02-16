@@ -1,0 +1,31 @@
+# Deploy on cloud / server(Advanced):
+>> VPS (AWS/Azure/GCP)
+>> Use docker
+>> Use Nginx + Gunicorn
+>> Deploy beyond reverse proxy
+
+Create requirements.txt
+
+Example:
+
+streamlit
+tensorflow
+numpy
+Pillow
+PyPDF2
+python-docx
+
+This tells deployment server what to install.
+
+>> Example project structure looks like This
+
+my_app/
+│
+├── app.py
+├── requirements.txt
+├── model/
+│     └── model.h5
+├── utils.py
+└── pages/
+      ├── Dashboard.py
+      └── History.py
