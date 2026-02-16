@@ -1,0 +1,32 @@
+Hugging Face : Hugging Face is an open AI platform and community and acts as a central hub for sharing and collaborating on machine learning models, datasets, and AI applications.
+>> It is also called as Github of AI.
+>> It provides tools like the popular Transformers library for working with NLP, computer vision and audio models.
+
+Why Hugging Face?
+>> Free Hosting(with limits)
+>> Great for ML/AI apps
+>> GPU option(paid)
+>> Easy git based Deployment
+>> Public sharing link 
+
+Steps to Deployment:
+>> 1. Create Account - goto https://huggingface.co and creaate an account.
+>> 2. Create a New space - click create new space
+   >> choose SDK inside streamlit option 
+   >> select visibility : public / private 
+   >> click create 
+>> 3. Upload your project files
+
+app.py
+requirements.txt
+model.h5 (if needed)
+utils.py
+>> you can also push via git
+>> requirements.txt must include all libraries imported if any thing forgot it fails 
+streamlit
+tensorflow
+numpy
+Pillow
+
+>> 4. Done: After building you will get a live URL like:
+   >> https://username-my-streamlit-app.hf.space
