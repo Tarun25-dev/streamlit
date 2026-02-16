@@ -1,0 +1,7 @@
+Most common mistakes in Strealit:
+>> Loading model every rerun
+>> No validation
+>> No session_state
+>> Large messy single file
+>> No requirements.txt 
+>> Hardcoded paths
