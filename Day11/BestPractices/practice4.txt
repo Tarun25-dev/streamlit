@@ -1,0 +1,7 @@
+Use session_state wisely:
+to store:
+      >> User login
+      >> Uploaded files
+      >> Selected Options
+      >> Prediction History
+      

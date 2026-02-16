@@ -1,0 +1,7 @@
+Validate inputs:
+>> Always check,
+   >> file type
+   >> file size
+   >> empty inputs 
+   >> required fields 
+   
