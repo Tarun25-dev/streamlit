@@ -1,0 +1,7 @@
+Use caching:
+
+@st.cache_resource
+def load_model():
+    return model
+
+>> Prevents model from reloading every rerun.
