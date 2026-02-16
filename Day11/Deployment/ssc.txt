@@ -1,0 +1,12 @@
+# option 1:
+> Deployment on SSC (Streamlit Community Cloud)
+> It is the official way to deploy the streamlit app 
+
+>> Steps to follow:
+   >> Push your project to github.
+   >> go to : https://share.streamlit.io
+   >> Connect github repository
+   >> Select main file (eg: app.py/main.py)
+   >> Click "Deploy"
+>> Your app becomes public like:
+>> https://yourname.streamlit.app
