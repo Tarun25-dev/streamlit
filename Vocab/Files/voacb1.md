@@ -21,7 +21,7 @@
 |19|Address|చిరునామా|Please write your address clearly.|
 |20|Adhere|కట్టుబడి ఉండు, పాటించు|Employees must adhere to company policies.|
 |21|Advice|సలహా|My teacher gave me good advice.|
-|22|Advocate|She advocates equal opportunities for everyone.|
+|22|Advocate|సమర్ధించు, మద్దతు ఇచ్చే వారు|She advocates equal opportunities for everyone.|
 |23|Afraid|భయపడిన|I am not afraid of hard work.|
 |24|Agile|చురుకైన, వేగంగా స్పందించగల|An agile developer can adapt to new technologies quickly.|
 |25|Alleviate|తగ్గించు, ఉపశమనం కలిగించు|This medicine will alleviate the pain.|
