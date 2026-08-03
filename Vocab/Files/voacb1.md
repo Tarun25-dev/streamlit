@@ -25,4 +25,9 @@
 |23|Afraid|భయపడిన|I am not afraid of hard work.|
 |24|Agile|చురుకైన, వేగంగా స్పందించగల|An agile developer can adapt to new technologies quickly.|
 |25|Alleviate|తగ్గించు, ఉపశమనం కలిగించు|This medicine will alleviate the pain.|
+|26|Allocate|కేటాయించు|The manager allocated tasks to the team.|
+|27|Amend|సవరించు, సరిచేయు|The company amended its policy.|
+|28|Amplify|పెంచు, విస్తరించు|The microphone amplifies your voice.|
+|29|Apprehend|అర్థం చేసుకో|It took me time to apprehend the concept.|
+|30|Arbitrary|ఏ ఆధారం లేకుండా ఇస్స్టానుసారంగా చేసిన|The decision was arbitrary and unfair.|
 
