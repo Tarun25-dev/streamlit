@@ -15,3 +15,8 @@
 |13|Adversity|కష్టకాలం, ప్రతికూల పరిస్థితి|He remained strong in the face of adversity.|
 |14|Alleged|ఆరోపించబడిన, ఇంకా నిరూపించబడని|The alleged incident is being investigated.|
 |15|Apt|తగిన, నైపుణ్యం ఉన్న|He is apt at learning new technologies.|
+|16|Astound|చాలా ఆశ్ఛర్యపరచు|Her performance astounded everyone.|
+|17|Audible|వినగలిగే, వినిపించే|His voice was barely audible.|
+|18|Autonomous|స్వతంత్రంగా పనిచేసే, స్వయం పాలిత|The robot can perform autonomous tasks.|
+|19|Adversarial|వీరోధబావంతో ఉన్న, వ్యతిరేకించే|The two teams has an adversarial relationship.|
+|20|Astere|నిరాడంబరమైన, చాలా సాదారణంగా|The room had an astere design with very little furniture.|
