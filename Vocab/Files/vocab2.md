@@ -20,3 +20,8 @@
 |18|Autonomous|స్వతంత్రంగా పనిచేసే, స్వయం పాలిత|The robot can perform autonomous tasks.|
 |19|Adversarial|వీరోధబావంతో ఉన్న, వ్యతిరేకించే|The two teams has an adversarial relationship.|
 |20|Astere|నిరాడంబరమైన, చాలా సాదారణంగా|The room had an astere design with very little furniture.|
+|21|Adept|నైపుణ్యం కలిగిన, సమర్ధుడైన|She is adept at solving complex problems.|
+|22|Affluent|సంపన్నమైన, ధనికమైన|He grew up in an affluent family.|
+|23|Aggravate|మరింత తీవ్రతరం చేయు, సమస్యను పెంచు|Don't aggravate the situation by arguing.|
+|24|Altruistic|నిస్వార్ధమైన, ఇతరుల మేలు కూరే|Her altruistic nature made her help people in need.|
+|25|Analogous|పోలిన, సారూపయమైన|The human brain is sometimes considered analogous to a computer.|
